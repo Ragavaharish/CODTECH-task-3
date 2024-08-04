@@ -3,7 +3,7 @@
 **ID:** CT4FWD4646
 **Domain:** Frontend web development
 **Duration:** July to August 10
-**Mentor:** Srilakshmi
+**Mentor:** santhosh kumar
 
 ## Overview of the project
 
