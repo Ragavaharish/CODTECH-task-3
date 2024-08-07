@@ -7,7 +7,7 @@
 
 ## Overview of the project
 
-### Project: Recipie finder
+### Project: Weather dashbord
 ![Screenshot (26)](https://github.com/user-attachments/assets/79fd01d4-0ae3-4fbe-9b91-8e0f9efb3f3a)
 ![Screenshot (27)](https://github.com/user-attachments/assets/c2667f22-578c-439d-872b-f581bf31d685)
 
