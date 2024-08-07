@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+            <input type="text" id="city" placeholder="Enter city name">
+            <button id="getWeather">Get Weather</button>
+        </div>
+        <div class="current-weather">
+            <h2 id="cityName"></h2>
+            <img id="weatherIcon" src="../weather/Weather-1024.webp" alt="Weather Icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <div class="forecast">
+            <h2>5-Day Forecast</h2>
+            <div class="forecast-container" id="forecastContainer"></div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>

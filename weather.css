@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    margin: 0;
+    background: #f0f4f8;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    animation: glow 1.5s infinite alternate;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header input, .header button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.header button {
+    background: #61dafb;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header button:hover {
+    background: #21a1f1;
+}
+
+.current-weather, .forecast {
+    margin-top: 20px;
+}
+
+.forecast-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.forecast-item {
+    background: #e5dfdf;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#weatherIcon {
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .header input, .header button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    #weatherIcon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 30px #7e898d;
+    }
+    to {
+        box-shadow: 30px 30px 30px #7d8c95;
+    }
+}
